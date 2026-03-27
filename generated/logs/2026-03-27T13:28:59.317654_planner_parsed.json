@@ -1,0 +1,11 @@
+{
+  "requirements": [
+    "Reject empty message."
+  ],
+  "assumptions": [
+    "Fallback parser used due to invalid JSON response."
+  ],
+  "tasks": [
+    "Manually review generated plan"
+  ]
+}

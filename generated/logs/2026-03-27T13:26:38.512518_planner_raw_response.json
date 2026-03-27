@@ -1,0 +1,4 @@
+{
+  "feature_request": "Build a REST endpoint that accepts a customer inquiry and stores it.",
+  "response": "\n        {\n            \"requirements\" : [\"Accept a customer inquiry payload\", \n            \"Store the inquiry\"\n            \"Return a success response\"],\n            \"assumptions\" : [\"SQLite or in-memory storage is acceptable\"],\n            \"tasks\" : [\"Create FastAPI endpoint\",\n                       \"Validate request payload\",\n                       \"Persist inquiry\",\n                       \"Return response\"]\n        }"
+}

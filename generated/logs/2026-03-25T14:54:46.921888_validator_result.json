@@ -1,0 +1,4 @@
+{
+  "passed": false,
+  "test_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_________________________ test_create_inquiry_success __________________________\n\n    def test_create_inquiry_success():\n        response = client.post(\"/inquiries\", json={\n            \"message\": \"hello\"\n            })\n        assert response.status_code == 200\n        body = response.json()\n>       assert body[\"status\"] == \"received\"\nE       AssertionError: assert 'ok' == 'received'\nE         \nE         - received\nE         + ok\n\ngenerated/tests/test_generated_feature.py:12: AssertionError\n=========================== short test summary info ============================\nFAILED generated/tests/test_generated_feature.py::test_create_inquiry_success\n1 failed in 2.14s"
+}

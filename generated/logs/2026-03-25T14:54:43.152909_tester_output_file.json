@@ -1,0 +1,15 @@
+{
+  "feature_request": "Build a REST endpoint that accepts a customer inquiry and stores it.",
+  "plan": {
+    "requirements": [
+      "Build a REST endpoint that accepts a customer inquiry and stores it."
+    ],
+    "assumptions": [
+      "Fallback parser used due to invalid JSON response."
+    ],
+    "tasks": [
+      "Manually review generated plan"
+    ]
+  },
+  "test_file": "generated/tests/test_generated_feature.py"
+}
